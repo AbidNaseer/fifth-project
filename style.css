@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#list{
+    display: inline-block;
+}
+#list li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+#list li a {
+    display: block;
+    color: black;
+    margin-top:15px;
+    padding-left: 20px;
+}
+#nav-1{
+    display: flex;
+    flex-direction: row;
+}
+#nav-1 p{
+    font-size: large;
+    font-weight: bold;
+}
